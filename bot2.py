@@ -24,7 +24,7 @@ def bienvenida():
 @app.post("/chatbot")
 def chatbot(request: ChatRequest):
     opciones = {
-        1: "https://www.formacionminerva.com/cursos/",
+        1: "C:\Users\Usuario\Desktop\cursos\others",
         2: "https://www.formacionminerva.com/wp-content/uploads/2025/05/Catalogo-de-ATENCION-SOCIOSANITARIA-A-PERSONAS-DEPENDIENTES-EN-INSTITUCIONES-SOCIALES-.pdf",
         3: "https://www.formacionminerva.com/wp-content/uploads/2025/05/Catalogo-de-Auxiliar-administrativo-2.pdf",
         4: "https://www.formacionminerva.com/wp-content/uploads/2024/12/CATALOGO-NUEVO-CURSO-AUXILIAR-DE-ENFERMERIA-1-1.pdf",
